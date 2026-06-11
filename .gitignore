@@ -1,0 +1,28 @@
+# Foldery generowane przez Qt Creator
+build/
+build-*/
+.qtcreator/
+*.user
+*.pro.user
+*.pro.user.*
+Makefile
+Makefile.*
+*.o
+*.obj
+
+# Pliki wykonywalne
+JezdzycyPro.exe
+JezdzycyPro
+*.out
+*.app
+
+# Dane rankingu
+ranking.txt
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# SFML – nie wgrywaj biblioteki binarnej
+SFML/
+SFML-*/
