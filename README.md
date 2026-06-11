@@ -30,5 +30,5 @@ Gra wyścigowa 2D napisana w C++ z SFML.
 - Kompilator C++17 (MinGW lub MSVC)
 
 ## Autorzy
-- Adam
-- Szymon
+- Adam Gryglik
+- Szymon Fraska
