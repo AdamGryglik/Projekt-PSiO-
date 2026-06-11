@@ -16,16 +16,18 @@ Gra wyścigowa 2D napisana w C++ z SFML.
 1. Sklonuj repozytorium
 2. Otwórz Qt Creator
 3. **Plik → Otwórz plik lub projekt**
-4. Wybierz **CMakeLists.txt** (nie .pro)
+4. Wybierz plik projektu z rozszerzeniem **.pro**
 5. Kliknij **Konfiguruj projekt**
 6. Naciśnij **Ctrl+R**
 
-> Jeśli CMake nie znajdzie SFML automatycznie, podaj ścieżkę:
-> W Qt Creator: Projekty → CMake → dodaj zmienną:
-> SFML_DIR = C:/SFML-2.5.1/lib/cmake/SFML
+> Jeśli qmake nie znajdzie SFML automatycznie, dopisz ścieżki do biblioteki bezpośrednio w pliku **.pro**:
+> ```qmake
+> INCLUDEPATH += C:/SFML-2.5.1/include
+> LIBS += -LC:/SFML-2.5.1/lib -lsfml-graphics -lsfml-window -lsfml-system
+> ```
 
 ## Wymagania
-- Qt Creator z CMake
+- Qt Creator z qmake
 - SFML 2.5 lub nowszy
 - Kompilator C++17 (MinGW lub MSVC)
 
