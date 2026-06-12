@@ -9,31 +9,31 @@ CONFIG  += c++17
 QT      -= core gui
 
 SOURCES += \
-    src/main.cpp          \
-    src/Game.cpp          \
-    src/Car.cpp           \
-    src/Track.cpp         \
-    src/Obstacle.cpp      \
-    src/Coin.cpp          \
-    src/HUD.cpp           \
-    src/Menu.cpp          \
-    src/RankingScreen.cpp \
-    src/EndScreen.cpp     \
-    src/Ranking.cpp
+    main.cpp          \
+    Game.cpp          \
+    Car.cpp           \
+    Track.cpp         \
+    Obstacle.cpp      \
+    Coin.cpp          \
+    HUD.cpp           \
+    Menu.cpp          \
+    RankingScreen.cpp \
+    EndScreen.cpp     \
+    Ranking.cpp
 
 HEADERS += \
-    include/Constants.h      \
-    include/GameObject.h     \
-    include/Car.h            \
-    include/Track.h          \
-    include/Obstacle.h       \
-    include/Coin.h           \
-    include/HUD.h            \
-    include/Menu.h           \
-    include/RankingScreen.h  \
-    include/EndScreen.h      \
-    include/Ranking.h        \
-    include/Game.h
+    Constants.h      \
+    GameObject.h     \
+    Car.h            \
+    Track.h          \
+    Obstacle.h       \
+    Coin.h           \
+    HUD.h            \
+    Menu.h           \
+    RankingScreen.h  \
+    EndScreen.h      \
+    Ranking.h        \
+    Game.h
 
 INCLUDEPATH += include
 
